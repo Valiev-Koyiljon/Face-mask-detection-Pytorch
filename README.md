@@ -38,7 +38,7 @@ You can install the required packages by running the following command:
 
 3. Once the model is trained and saved, open the "RealTimeFaceMaskDetecter.ipynb" notebook using Jupyter Notebook or JupyterLab (not Google Colab). This notebook is used for accessing the real webcam and performing real-time face mask detection using the trained model. Run the cells within the notebook to start the real-time face mask detection.
 
-##**Note:** Make sure to have a webcam connected to your system to capture the live video feed.
+**Note:** Make sure to have a webcam connected to your system to capture the live video feed.
 
 Please note that when running the second code file to access the web camera, please use Jupyter Notebook or JupyterLab instead of Google Colab. Google Colab may not work with this code because it has its own code to access the camera. However, you can still use Google Colab for the first part of our project to train the model.
 
