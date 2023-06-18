@@ -42,4 +42,11 @@ You can install the required packages by running the following command:
 
 Please note that when running the second code file to access the web camera, please use Jupyter Notebook or JupyterLab instead of Google Colab. Google Colab may not work with this code because it has its own code to access the camera. However, you can still use Google Colab for the first part of our project to train the model.
 
+## Facemask detection presentation
+1. Due to the 25 MB limit on uploading the file to Github, I could not upload my ppt file directly. Therefore, If you are interested in my presentation about facemask detection, I will leave the link to download the file via Google Drive: https://drive.google.com/file/d/1vdoWcSmqZ4Ttn1GGLfBN0wKh9YRjKLKl/view
+
+## Research Report
+1. Ther
+
+
 
