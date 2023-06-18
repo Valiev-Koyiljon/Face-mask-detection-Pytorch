@@ -46,7 +46,7 @@ Please note that when running the second code file to access the web camera, ple
 1. Due to the 25 MB limit on uploading the file to Github, I could not upload my ppt file directly. Therefore, If you are interested in my presentation about facemask detection, I will leave the link to download the file via Google Drive: https://drive.google.com/file/d/1vdoWcSmqZ4Ttn1GGLfBN0wKh9YRjKLKl/view
 
 ## Research Report
-1. Ther
+1. I wrote small resaearch report. I uploaded the file to the Github. If you are interseted in my report, you can download it directly from this repository. 
 
 
 
