@@ -1,45 +1,107 @@
-# Face-mask-detection-Pytorch
+# Face Mask Detection – PyTorch
 
-This project aims to detect whether a person is wearing a face mask in real time using computer vision techniques. It uses a pre-trained deep learning model to classify images into two categories: "with mask" and "without mask."
+[![Watch the Demo](https://img.youtube.com/vi/xf0f9s3kzEg/0.jpg)](https://youtu.be/xf0f9s3kzEg?si=YHPNR1BMKbEXFjK2)
 
-Face Mask Detection: PyTorch, OpenCV, Python, and MTCNN is used for this project. It combines deep learning, computer vision, and real-time video processing. Trained on labeled data, the system evaluates accuracy and loss. Promote public health and safety with this mask detection solution.
- 
- 
+**🎥 Click the image above to watch a live demo of this project on YouTube.**
 
-## Dataset
+---
 
-The dataset used for this project is available in the "mask_images_ready.zip" file. It contains a collection of labeled images, with each image labeled as "with mask" or "without mask." The dataset is divided into training and testing sets for model training and evaluation.
+## 🧠 Project Overview
 
-To use this dataset, download the "mask_images_ready.zip" file and extract it to the appropriate location in your project directory.
+This project detects whether a person is wearing a **face mask** in real time using deep learning and computer vision. Built with **PyTorch**, **OpenCV**, and **MTCNN**, it classifies faces as either:
 
-## Installation
+* 😷 **With Mask**
+* 😶 **Without Mask**
 
-To run this project locally, please ensure you have the following dependencies installed:
+It promotes public health by enabling real-time monitoring using a webcam, and is trained on labeled image data.
 
-- Python 3.6 or above
-- torch==2.0.1
-- torchvision==0.9.1
-- MTCNN==0.1.12
-- numpy==1.21.5
-- opencv-python==4.5.3.56
-- Pillow==8.3.2
-- matplotlib==3.7.1
+---
 
-You can install the required packages by running the following command:
-**pip install -r requirements.txt**
+## 📁 Dataset
 
+The dataset used is provided in `mask_images_ready.zip`, containing labeled images split into:
 
+* `with_mask`
+* `without_mask`
 
-## Usage
+To use the dataset:
 
-1. After installing the dependencies, navigate to the project directory.
+1. Download `mask_images_ready.zip`
+2. Extract it into your project directory
+3. Use it for training/testing the model
 
-2. Run the "Facemask_detection_last1_Final.ipynb" notebook. This notebook is used for training the deep learning model for face mask detection. Follow the instructions within the notebook to train the model using your own dataset of face images labeled as "with mask" or "without mask". Make sure to properly organize and label your dataset before training. You can use Google Colab for this part of the project to take advantage of its computing resources.
+---
 
-3. Once the model is trained and saved, open the "RealTimeFaceMaskDetecter.ipynb" notebook using Jupyter Notebook or JupyterLab (not Google Colab). This notebook is used for accessing the real webcam and performing real-time face mask detection using the trained model. Run the cells within the notebook to start the real-time face mask detection.
+## ⚙️ Installation
 
-**Note:** Make sure to have a webcam connected to your system to capture the live video feed.
+Ensure you have the following dependencies installed:
 
-Please note that when running the second code file to access the web camera, please use Jupyter Notebook or JupyterLab instead of Google Colab. Google Colab may not work with this code because it has its own code to access the camera. However, you can still use Google Colab for the first part of our project to train the model.
+```bash
+pip install -r requirements.txt
+```
+
+**Required Versions:**
+
+* Python ≥ 3.6
+* `torch==2.0.1`
+* `torchvision==0.9.1`
+* `MTCNN==0.1.12`
+* `opencv-python==4.5.3.56`
+* `numpy==1.21.5`
+* `Pillow==8.3.2`
+* `matplotlib==3.7.1`
+
+---
+
+## 🚀 How to Use
+
+### 1. Train the Model
+
+Open and run the following notebook in **Google Colab** or locally (with GPU support):
+
+```
+model.ipynb
+```
+
+* Follow in-notebook instructions
+* Ensure your dataset is organized as `with_mask/` and `without_mask/`
+* Train and save your model
+
+### 2. Real-Time Inference
+
+After training:
+
+Open this notebook in **Jupyter Notebook** or **JupyterLab** (⚠️ Not Google Colab):
+
+```
+realTimeDetection.ipynb
+```
+
+* Connect a webcam
+* Run the notebook to begin real-time face mask detection
+
+---
+
+## ⚠️ Notes
+
+* **Colab users**: Google Colab cannot access your local webcam, so use it only for training.
+* **Webcam access**: For real-time detection, ensure your device has a functional camera and use Jupyter locally.
+
+---
+
+## 💡 Technologies Used
+
+* PyTorch
+* OpenCV
+* MTCNN (Face Detection)
+* Python
+* Jupyter Notebook
+* Google Colab
+
+---
+
+## 📽 Demo
+
+▶️ Watch the live demo here: [https://youtu.be/xf0f9s3kzEg](https://youtu.be/xf0f9s3kzEg?si=YHPNR1BMKbEXFjK2)
 
 
